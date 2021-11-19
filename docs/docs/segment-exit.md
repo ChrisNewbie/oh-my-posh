@@ -17,7 +17,7 @@ Displays the last exit code or that the last command failed based on the configu
   "foreground": "#ffffff",
   "background": "#00897b",
   "background_templates": [
-    "{{ if gt .Code 0 }}#e91e63{{ end }}",
+    "{{ if gt .Code 0 }}#e91e63{{ end }}"
   ],
   "leading_diamond": "",
   "trailing_diamond": "\uE0B4",
